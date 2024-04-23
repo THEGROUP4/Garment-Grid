@@ -22,19 +22,19 @@ function App() {
                             {/* Simulates signing in */}
                             <Route
                                 path="/"
-                                element={<Navigate to="/dashboard" replace />}
+                                element={<Navigate to="/Garment-Grid/dashboard" replace />}
                             />
-                            <Route path="/dashboard" element={<Dashboard />} />
-                            <Route path='/product_catalogue' element={<ProductCatalogue />} />
-                            <Route path='/customer_directory' element={<CustomerDirectory />} />
-                            <Route path='/transaction_ledger' element={<TransactionLedger />} />
-                            <Route path='/demographics' element={<Demographics />} />
-                            <Route path='/overview' element={<Overview />} />
-                            <Route path='/daily_analytics' element={<DailyAnalytics />} />
-                            <Route path='/monthly_analytics' element={<MonthlyAnalytics />} />
-                            <Route path='/distribution' element={<Distribution />} />
-                            <Route path='/administrative' element={<Administrators />} />
-                            <Route path='/affiliate_metrics' element={<AffiliateMetrics />} />
+                            <Route path="/Garment-Grid/dashboard" element={<Dashboard />} />
+                            <Route path='/Garment-Grid/product_catalogue' element={<ProductCatalogue />} />
+                            <Route path='/Garment-Grid/customer_directory' element={<CustomerDirectory />} />
+                            <Route path='/Garment-Grid/transaction_ledger' element={<TransactionLedger />} />
+                            <Route path='/Garment-Grid/demographics' element={<Demographics />} />
+                            <Route path='/Garment-Grid/overview' element={<Overview />} />
+                            <Route path='/Garment-Grid/daily_analytics' element={<DailyAnalytics />} />
+                            <Route path='/Garment-Grid/monthly_analytics' element={<MonthlyAnalytics />} />
+                            <Route path='/Garment-Grid/distribution' element={<Distribution />} />
+                            <Route path='/Garment-Grid/administrative' element={<Administrators />} />
+                            <Route path='/Garment-Grid/affiliate_metrics' element={<AffiliateMetrics />} />
                         </Route>
                     </Routes>
                 </ThemeProvider>
