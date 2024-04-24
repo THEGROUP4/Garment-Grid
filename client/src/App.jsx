@@ -21,7 +21,7 @@ function App() {
                         <Route element={<Layout />}>
                             {/* Simulates signing in */}
                             <Route
-                                path="/"
+                                path="*"
                                 element={<Navigate to="/dashboard" replace />}
                             />
                             <Route path="/dashboard" element={<Dashboard />} />
