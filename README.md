@@ -17,10 +17,10 @@ GarmentGrid is a web application designed to provide analytics and insights into
 ## Screenshots
 
 ![Dashboard](/)
-*Dashboard - Overview of key sales metrics.*
+*Dashboard - Overview of key sales metrics.* PENDING SCREENSHOTS
 
 ![Daily Analytics](/)
-*Daily Analytics - Visualize daily sales trends.* ...
+*Daily Analytics - Visualize daily sales trends.* ... PENDING SCREENSHOTS
 
 ## Technologies Used
 - **ReactJS:** - Frontend framework
