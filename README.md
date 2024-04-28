@@ -41,6 +41,11 @@ GarmentGrid is a web application designed to provide analytics and insights into
 5. Start the development server: `npm run dev`
 5. Access the application at `http://localhost:[]` in your web browser.
 
+## TODO:
+- Fix 404 error page
+- fix blank x/y on hover
+- 
+
 ## Contributing
 
 Contributions are currently closed.
