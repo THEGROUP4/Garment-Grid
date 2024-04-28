@@ -17,10 +17,10 @@ GarmentGrid is a web application designed to provide analytics and insights into
 ## Screenshots
 
 ![Dashboard](/)
-*Dashboard - Overview of key sales metrics.*
+*Dashboard - Overview of key sales metrics.* PENDING SCREENSHOTS
 
 ![Daily Analytics](/)
-*Daily Analytics - Visualize daily sales trends.* ...
+*Daily Analytics - Visualize daily sales trends.* ... PENDING SCREENSHOTS
 
 ## Technologies Used
 - **ReactJS:** - Frontend framework
@@ -40,6 +40,12 @@ GarmentGrid is a web application designed to provide analytics and insights into
 4. Install dependencies: `npm install`
 5. Start the development server: `npm run dev`
 5. Access the application at `http://localhost:[]` in your web browser.
+
+## TODO:
+- Fix 404 error page
+- fix blank x/y on hover
+- add license file
+- build backend eventually
 
 ## Contributing
 
