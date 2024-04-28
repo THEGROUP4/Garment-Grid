@@ -45,6 +45,7 @@ GarmentGrid is a web application designed to provide analytics and insights into
 - Fix 404 error page
 - fix blank x/y on hover
 - add license file
+- build backend eventually
 
 ## Contributing
 
