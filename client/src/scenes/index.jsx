@@ -10,6 +10,7 @@ import DailyAnalytics from "./DailyAnalytics/DailyAnalytics.jsx";
 import MonthlyAnalytics from "./MonthlyAnalytics/MonthlyAnalytics.jsx";
 import AffiliateMetrics from "./AffiliateMetrics/AffiliateMetrics.jsx";
 import Layout from "./Layout/Layout.jsx";
+import NotFound from "./NotFound/NotFound.jsx";
 
 export {
     Administrators,
@@ -24,4 +25,5 @@ export {
     MonthlyAnalytics,
     AffiliateMetrics,
     Layout,
+    NotFound,
 };

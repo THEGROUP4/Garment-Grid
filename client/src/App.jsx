@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { themeSettings } from './theme.js';
 import { 
-    Administrators, Distribution, Dashboard, ProductCatalogue, CustomerDirectory, TransactionLedger, Demographics, Overview, DailyAnalytics, MonthlyAnalytics, AffiliateMetrics, Layout 
+    Administrators, Distribution, Dashboard, ProductCatalogue, CustomerDirectory, TransactionLedger, Demographics, Overview, DailyAnalytics, MonthlyAnalytics, AffiliateMetrics, Layout, NotFound 
 } from './scenes';
 
 // boilerplate
@@ -21,7 +21,7 @@ function App() {
                         <Route element={<Layout />}>
                             {/* Simulates signing in */}
                             <Route
-                                path="*"
+                                path="/"
                                 element={<Navigate to="/dashboard" replace />}
                             />
                             <Route path="/dashboard" element={<Dashboard />} />
@@ -36,6 +36,7 @@ function App() {
                             <Route path='/administrative' element={<Administrators />} />
                             <Route path='/affiliate_metrics' element={<AffiliateMetrics />} />
                         </Route>
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                 </ThemeProvider>
             </BrowserRouter>

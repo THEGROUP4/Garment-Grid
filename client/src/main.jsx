@@ -25,6 +25,7 @@ import './scenes/MonthlyAnalytics/MonthlyAnalytics.css';
 import './scenes/Overview/Overview.css';
 import './scenes/ProductCatalogue/ProductCatalogue.css';
 import './scenes/TransactionLedger/TransactionLedger.css';
+import './scenes/NotFound/NotFound.css';
 
 // Configure Redux store
 const store = configureStore({
